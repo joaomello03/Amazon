@@ -2,7 +2,7 @@
 
 describe('Automação da Amazon', () => {
 
-  it('Adicionar livros ao carrinho', () => {
+  it('Adicionar produtos ao carrinho', () => {
     cy.visit('https://www.amazon.com.br/');
 
     const produtosAmazon = [
